@@ -225,17 +225,14 @@
       </plugin>
     </plugins>
   </reporting>
-  <distributionManagement>
-  <repository>
-    <id>ravi_petclini_Release</id>
-    <url>http://localhost:8081/nexus/content/repositories/ravi_petclini_Release</url>
-  </repository>
- 
+<distributionManagement>
   <snapshotRepository>
-    <id>ravi_petclinic_snapshot</id>
-    <url>http://localhost:8081/nexus/content/repositories/ravi_petclinic_snapshot</url>
+    <id>avokodo_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/avokodo_snapshot</url>
   </snapshotRepository>
-
+  <repository>
+    <id>avokodo_release</id>
+    <url>http://localhost:8081/nexus/content/repositories/avokodo_release</url>
+  </repository>
 </distributionManagement>
-
 </project>
